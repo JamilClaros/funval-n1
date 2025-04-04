@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*el display cambia la orientacion que esta predeterminada*/
+
+body > a{
+    background-color: aqua;
+    display: block;
+
+}
+body > div{
+    background-color: blue;
+    display: inline;
+}
+/*display flex */
+.container{
+    border: solid 2px red;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+/* column */
+.box1 {
+    background-color: blue;
+    border: solid 2px yellow;
+    height: 30px;
+    width: 30px;
+
+
+
+}
